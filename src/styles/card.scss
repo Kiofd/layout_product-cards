@@ -10,14 +10,14 @@
 
   padding: 32px 16px 16px;
 
-  &_image {
+  &__image {
     height: 134px;
     width: 160px;
 
     margin: 0 auto;
   }
 
-  &_title {
+  &__title {
     margin-top: 40px;
 
     font-weight: 500;
@@ -27,7 +27,7 @@
     color: $text-main-color;
   }
 
-  &_product-code {
+  &__product-code {
     margin-top: 4px;
 
     @include width-with-spacing;
@@ -36,7 +36,7 @@
     color: $text-secondary-color;
   }
 
-  &_rate {
+  &__rate {
     margin-top: 16px;
 
     @include width-with-spacing;
@@ -45,25 +45,25 @@
     font-size: 10px;
   }
 
-  &_price {
+  &__price {
     margin-top: 24px;
     font-size: 16px;
     line-height: 18px;
 
     @include width-with-spacing;
 
-    &_title {
+    &-title {
       color: $text-secondary-color;
       font-size: 12px;
     }
 
-    &_amount {
+    &-amount {
       font-weight: 700;
       font-size: 16px;
     }
   }
 
-  &_button_buy {
+  &__button_buy {
     margin-top: 16px;
 
     @include width-with-spacing;
